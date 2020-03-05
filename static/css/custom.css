@@ -1,0 +1,78 @@
+body {
+    background-color: #1a1a1a;
+    color: #fafafa;
+}
+.container h1, 
+.container h2, 
+.container h3, 
+.container h4, 
+.container h5, 
+.container h6, 
+.container p, 
+.container span {
+    font-family: 'Kosugi';
+    color: #fafafa;
+}
+p a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid #5a5a5a;
+}
+
+.site-heading, header, header.masthead .overlay {
+    background-color: #1a1a1a !important;
+}
+
+header.masthead .site-heading {
+    padding: 100px 0;
+}
+
+.social {
+    margin-top: 10%;
+    text-align: center;
+}
+.social a {
+    color: #c9c9c9;
+    text-decoration: none;
+}
+.social a p {
+    margin: 25px 0;
+}
+.social a p span {
+    padding: 10px 20px;
+}
+.social a:hover span {
+    color: #1a1a1a;
+}
+.social a:hover p span {
+    background-color: #b92663;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.post-preview>.post-meta>a {
+    color: #fafafa;
+}
+
+.navbar-brand {
+    padding: 0 20px !important;
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+.logo-img.black {
+    display: none;
+}
+
+#mainNav.is-fixed .logo-img:not(.black) {
+    display: none;
+}
+#mainNav.is-fixed .logo-img.black {
+    display: block;
+}
