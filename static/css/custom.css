@@ -69,10 +69,17 @@ header.masthead .site-heading {
 .logo-img.black {
     display: none;
 }
-
-#mainNav.is-fixed .logo-img:not(.black) {
-    display: none;
-}
 #mainNav.is-fixed .logo-img.black {
     display: block;
+}
+#mainNav.is-fixed .logo-img:not(.black ){
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    .logo-img:not(.black) {
+        display: none;
+    }
+    .logo-img.black {
+        display: block;
+    }
 }
